@@ -1,17 +1,15 @@
 # Competitor Shield
-Competitor Shield is a Python project that generates and delivers alerts for competitor detection.
 
-## Features
-* Generates alerts for competitor detection
-* Sends alerts via email and in-app notification
-* Allows users to dismiss or snooze alerts
-* Limits alert count per user to 20 per day
+Competitor Shield is an AI-driven alert system for competitive threats. It provides actionable insights for users to respond to threats.
 
-## Requirements
-* Python 3.8+
-* pytest 6.2.5+
+## Usage
 
-## Installation
-1. Clone the repository
-2. Install dependencies using `poetry install`
-3. Run tests using `pytest`
+1. Create an instance of the `AlertSystem` class.
+2. Add threats using the `add_threat` method.
+3. Get threats using the `get_threats` method.
+4. Notify users using the `notify_users` method.
+5. Provide insights using the `provide_insights` method.
+
+## Testing
+
+Run tests using `python -m pytest`.
